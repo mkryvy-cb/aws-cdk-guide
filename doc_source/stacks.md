@@ -179,7 +179,7 @@ class MyService(Construct):
     DataPlane(self, "data")
     Monitoring(self, "mon")
     
-app = App();
+app = App()
 MyService(app, "beta")
 MyService(app, "prod", prod=True)
 
